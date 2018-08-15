@@ -1,0 +1,16 @@
+title=Home Control
+major_version=1
+minor_version=0
+build_version=00000
+mm_icon_focus_hd=pkg:/images/Fireplace_405x540.jpg
+mm_icon_focus_sd=pkg:/images/Fireplace_405x540.jpg
+mm_icon_focus_fhd=pkg:/images/Fireplace_405x540.jpg
+subtitle=Controls the lights and fireplace
+splash_screen_fhd=pkg:/images/Fireplace_1920x1080.jpg
+splash_screen_hd=pkg:/images/Fireplace_1920x1080.jpg
+splash_screen_sd=pkg:/images/Fireplace_1920x1080.jpg
+splash_color=#662d91
+splash_min_time=0
+ui_resolutions=FHD
+splash_rsg_optimization=1
+'**********=Copyright 2016 Roku Corp.  All Rights Reserved. **********

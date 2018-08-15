@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+
+<!--********** Copyright 2016 Roku Corp.  All Rights Reserved. **********-->
+
+<component name = "LabelListExample" extends = "Scene" initialFocus = "exampleLabelList" >
+
+  <script type = "text/brightscript" uri="pkg:/components/labellistscene.brs" />
+
+  <children >
+
+    <LabelList id = "exampleLabelList" drawFocusFeedback = "false" vertFocusAnimationStyle = "floatingFocus" color = "0xAAAAAAFF" focusedColor="0xFFFFFFFF" backgrounURI="pkg:/images/Fireplace_1920x1080_black.jpg">
+
+      <ContentNode role = "content" >
+      	<!-- <ContentNode title = "Test" id="test"/> -->
+      	<ContentNode title = "Dim lights" id="MainFloor_Lights_Dim"/>
+        <ContentNode title = "Normal lights" id="MainFloor_Lights_Normal"/>
+        <ContentNode title = "Fireplace On" id="Fireplace_On"/>
+        <ContentNode title = "Fireplace Off" id="Fireplace_Off"/>
+      </ContentNode>
+
+    </LabelList>
+
+  </children>
+
+</component>

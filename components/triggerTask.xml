@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component extends="Task" name="triggerTask">
+	<interface>
+		<field value="" type="string" id="triggerUrl"/>
+	</interface>
+	<script type="text/brightscript" uri="pkg:/components/triggerTask.brs"/>
+</component>
