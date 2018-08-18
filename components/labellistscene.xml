@@ -8,10 +8,21 @@
 
   <children >
 
-    <LabelList id = "exampleLabelList" drawFocusFeedback = "false" vertFocusAnimationStyle = "floatingFocus" color = "0xAAAAAAFF" focusedColor="0xFFFFFFFF" backgrounURI="pkg:/images/Fireplace_1920x1080_black.jpg">
+    <LabelList 
+    	id = "exampleLabelList" 
+    	drawFocusFeedback = "false" 
+    	vertFocusAnimationStyle = "floatingFocus" 
+    	color = "0xAAAAAAFF" 
+    	focusedColor="0xffffffFF" 
+    	font="font:MediumSystemFont"
+		focusedFont = "font:MediumSystemFont"
+		translation = "[675,475]"
+		itemSize="[500,65]"
+    	backgrounURI="pkg:/images/Fireplace_1920x1080_black.jpg">
 
       <ContentNode role = "content" >
       	<!-- <ContentNode title = "Test" id="test"/> -->
+      	<ContentNode title = "TV lights" id="MainFloor_Lights_TV"/>
       	<ContentNode title = "Dim lights" id="MainFloor_Lights_Dim"/>
         <ContentNode title = "Normal lights" id="MainFloor_Lights_Normal"/>
         <ContentNode title = "Fireplace On" id="Fireplace_On"/>

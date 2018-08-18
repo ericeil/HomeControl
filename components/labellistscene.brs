@@ -3,14 +3,12 @@ sub init()
   
   m.example = m.top.findNode("exampleLabelList")
 
-  m.example.font = "font:MediumSystemFont"
-  m.example.focusedFont = "font:MediumSystemFont"
+  'm.example.font = "font:MediumSystemFont"
+  'm.example.focusedFont = "font:MediumSystemFont"
   m.example.focusedFont.size = m.example.font.size+20
-  m.example.translation = [ 675, 500 ]
+  'm.example.translation = [ 675, 400 ]
 
   m.example.observeField("itemSelected", "onItemSelected")
-
-    print "hello"
 
   m.top.setFocus(true)
 end sub
